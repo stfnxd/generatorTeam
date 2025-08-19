@@ -45,7 +45,7 @@ function App() {
           value={teamSize}
           onChange={(e) => setTeamSize(Number(e.target.value))}
         >
-          {[2, 3, 4, 5, 6, 7].map(size => (
+          {[2, 3, 4, 5, 6, 7, 8].map(size => (
             <option key={size} value={size}>
               {size} personer per hold
             </option>
